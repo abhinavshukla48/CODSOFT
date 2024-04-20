@@ -1,1 +1,1 @@
-Tasks for Internship by CodSoft
+Tasks for Internship by CodSoft.
