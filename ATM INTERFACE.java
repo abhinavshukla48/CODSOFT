@@ -67,10 +67,10 @@ class ATM {
         int choice;
         do {
             System.out.println("\nATM Menu:");
-            System.out.println("1. Withdraw");
-            System.out.println("2. Deposit");
-            System.out.println("3. Check Balance");
-            System.out.println("4. Exit");
+            System.out.println("1. Withdrawl");
+            System.out.println("2. Deposition");
+            System.out.println("3. Check Available Balance");
+            System.out.println("4. Leave");
             System.out.print("Enter your choice: ");
             choice = scanner.nextInt();
 
@@ -89,7 +89,7 @@ class ATM {
                     checkBalance();
                     break;
                 case 4:
-                    System.out.println("Exiting. Thank you!");
+                    System.out.println("Leaving. Thank you!");
                     break;
                 default:
                     System.out.println("Invalid choice. Please try again.");
