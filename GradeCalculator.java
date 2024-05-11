@@ -24,7 +24,7 @@ public class GradeCalculator {
         }
         
         // Calculate Average Percentage: Divide the total marks by the total maximum marks.
-        double averagePercentage = ((double) totalMarks / (totalMaxMarks * numSubjects)) * 100;
+        double averagePercentage = ((double) totalMarks / (totalMaxMarks)) * 100;
         
         // Grade Calculation: Assign grades based on the average percentage achieved.
         char grade;
